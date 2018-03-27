@@ -1,4 +1,4 @@
-# stremio-addons-client
+# stremio-client-demo
 An example client to the Stremio add-ons protocol, similar to Stremio's Discover. Because the desktop app is nothing more but a client to the add-ons system, this is basically **an open-source Stremio**.
 ![Stremio add-ons client](/screenshots/stremio-addons-client.png)
 
@@ -31,8 +31,8 @@ Unlike regular software plugins, Stremio addons **do not run inside Stremio**, b
 ## Does it use the same logic as the desktop app?
 **Yes, the absolutely same logic, except**:
 
-1. Stremio has a user log-in, and utilizes only the enabled add-ons by the user. This utilizes all add-ons served by the tracker.
-2. The desktop app caches received results in [linvodb](http://github.com/Stremio/linvodb3), while this always loads them on demand
+1. Stremio has a user log-in, and utilizes only the enabled add-ons by the user. This utilizes all add-ons found.
+2. The desktop app has other pages, such as Board
 
 **But all in all, if an add-on works here, it should work on the desktop app and the mobile app.**
 
